@@ -15,8 +15,8 @@ const Get = () =>
     {
         try {
             const res = await axios.get('http://api.weatherapi.com/v1/current.json?key=b572a200fc624a6a85671436211310&q=Coimbatore&aqi=yes')   
-            // console.log(res.data.current);
-            // console.log(res.data.location);
+            console.log(res.data.current);
+            console.log(res.data.location);
             setGetPost(res.data);
             console.log(getPost);
             // console.log(res.data.current);
@@ -33,9 +33,7 @@ const Get = () =>
         <div>
             <h1>This is from Get.js</h1>
             <button onClick={getData}>Start</button>
-            <p>{ getPost != null && getPost.location != null && getPost.location.name != null && getPost.location.name ? getPost.location.name : undefined }</p>
-            <p>{ getPost != null && getPost.location != null && getPost.location.region != null && getPost.location.region ? getPost.location.region : undefined }</p>
-            <p>{ getPost != null && getPost.location != null && getPost.location.localtime != null && getPost.location.localtime ? getPost.location.localtime : undefined }</p>
+            <p>{ getPost.humidity }</p>
             {/* <p>{getPost.map((i) =>
             {
                 return (

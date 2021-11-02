@@ -35,7 +35,7 @@ const Get = () =>
             <button onClick={getData}>Start</button>
             <p>{ getPost != null && getPost.location != null && getPost.location.name != null && getPost.location.name ? getPost.location.name : undefined }</p>
             <p>{ getPost != null && getPost.location != null && getPost.location.region != null && getPost.location.region ? getPost.location.region : undefined }</p>
-            <p>{ getPost != null && getPost.location != null && getPost.location.localtime != null && getPost.location.localtime ? getPost.location.localtime : undefined }</p>
+            <p>{ getPost != null && getPost.location != null && getPost.location.region != null && getPost.location.region ? getPost.location.region : undefined }</p>
             {/* <p>{getPost.map((i) =>
             {
                 return (
