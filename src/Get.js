@@ -3,6 +3,17 @@ import axios from 'axios';
 import moment from 'moment';
 import Country from './component/Country';
 import Region from './component/Region';
+import Time from './component/Time';
+import Continent from './component/Continent';
+import District from './component/District';
+import Cloud from './component/Cloud';
+import UpdatedWeather from './component/UpdatedWeather';
+import Celcius from './component/Celcius';
+import Farenheit from './component/Farenheit';
+import Latitude from './component/Latitude';
+import Longitude from './component/Longitude';
+import Condition from './component/Condition';
+import Icon from './component/Icon';
 
 const Get = () =>
 {
@@ -56,12 +67,12 @@ const Get = () =>
             <button onClick={getData}>Submit</button>
         
         <div>
-            <h1>Data from Location</h1>
+            {/* <h1>Data from Location</h1>
             <p>{ getPost != null && getPost.location != null && getPost.location.name != null && getPost.location.name ? getPost.location.name : undefined }</p>
             <p>{ getPost != null && getPost.location != null && getPost.location.region != null && getPost.location.region ? getPost.location.region : undefined }</p>
             <p>{ getPost != null && getPost.location != null && getPost.location.localtime != null && getPost.location.localtime ? moment(getPost.location.localtime).format('LLLL') : undefined }</p>
             <p>{ getPost != null && getPost.location != null && getPost.location.tz_id != null && getPost.location.tz_id ? getPost.location.tz_id : undefined }</p>
-            <p>{getPost != null && getPost.location != null && getPost.location.country != null && getPost.location.country ? getPost.location.country : undefined}</p>
+            <p>{getPost != null && getPost.location != null && getPost.location.country != null && getPost.location.country ? getPost.location.country : undefined}</p> */}
             
             <h1>Data from Current</h1>
             {/* <button onClick={getData}>Start</button> */}
@@ -80,7 +91,20 @@ const Get = () =>
             })}</p> */}
 
             <Country CName={ getPost } />
-            <Region CName={ getPost } />
+                <Region CName={getPost} />
+                <Time CName={getPost} />
+                <Continent CName={getPost} />
+                <District CName={getPost} />
+                <Latitude CName={getPost} />
+                <Longitude CName={getPost} />
+                <Cloud CName={getPost} />
+                <UpdatedWeather CName={getPost} />
+                <Celcius CName={getPost} />
+                <Farenheit CName={getPost} />
+                <Condition CName={getPost} />
+                <Icon CName={getPost} />
+
+                
         </div>
         </>
     )
