@@ -14,6 +14,7 @@ import Latitude from './component/Latitude';
 import Longitude from './component/Longitude';
 import Condition from './component/Condition';
 import Icon from './component/Icon';
+import Humidity from './component/Humidity';
 
 const Get = () =>
 {
@@ -74,15 +75,15 @@ const Get = () =>
             <p>{ getPost != null && getPost.location != null && getPost.location.tz_id != null && getPost.location.tz_id ? getPost.location.tz_id : undefined }</p>
             <p>{getPost != null && getPost.location != null && getPost.location.country != null && getPost.location.country ? getPost.location.country : undefined}</p> */}
             
-            <h1>Data from Current</h1>
+            {/* <h1>Data from Current</h1> */}
             {/* <button onClick={getData}>Start</button> */}
             <p>{ getPost != null && getPost.current != null && getPost.current.humidity != null && getPost.current.humidity ? getPost.current.humidity : undefined }</p>
-            <p>{ getPost != null && getPost.current != null && getPost.current.last_updated != null && getPost.current.last_updated ? moment(getPost.current.last_updated).format('LLLL') : undefined }</p>
+            {/* <p>{ getPost != null && getPost.current != null && getPost.current.last_updated != null && getPost.current.last_updated ? moment(getPost.current.last_updated).format('LLLL') : undefined }</p> */}
             <p>{ getPost != null && getPost.current != null && getPost.current.wind_dir != null && getPost.current.wind_dir ? getPost.current.wind_dir : undefined }</p>
-            <p>{ getPost != null && getPost.current != null && getPost.current.temp_c != null && getPost.current.temp_c ? getPost.current.temp_c : undefined } C</p>
-            <p>{ getPost != null && getPost.current != null && getPost.current.temp_f != null && getPost.current.temp_f ? getPost.current.temp_f : undefined } F</p>
-            <p>{ getPost != null && getPost.current != null && getPost.current.condition.text != null && getPost.current.condition.text ? getPost.current.condition.text : undefined }</p>
-            <p> <img src={ getPost != null && getPost.current != null && getPost.current.condition != null && getPost.current.condition ? getPost.current.condition.icon : undefined }></img> </p>
+            {/* <p>{ getPost != null && getPost.current != null && getPost.current.temp_c != null && getPost.current.temp_c ? getPost.current.temp_c : undefined } C</p> */}
+            {/* <p>{ getPost != null && getPost.current != null && getPost.current.temp_f != null && getPost.current.temp_f ? getPost.current.temp_f : undefined } F</p> */}
+            {/* <p>{ getPost != null && getPost.current != null && getPost.current.condition.text != null && getPost.current.condition.text ? getPost.current.condition.text : undefined }</p> */}
+            {/* <p> <img src={ getPost != null && getPost.current != null && getPost.current.condition != null && getPost.current.condition ? getPost.current.condition.icon : undefined }></img> </p> */}
             {/* <p>{getPost.map((i) =>
             {
                 return (
@@ -103,8 +104,9 @@ const Get = () =>
                 <Farenheit CName={getPost} />
                 <Condition CName={getPost} />
                 <Icon CName={getPost} />
+                <Humidity CName={getPost} />
 
-                
+
         </div>
         </>
     )
