@@ -38,7 +38,7 @@ body {
     font-size: 1.2rem;
     text-transform: uppercase;
     background: transparent;
-    transition: .3s;
+    transition: .5s;
 }
 
 .button:hover {

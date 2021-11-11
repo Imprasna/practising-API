@@ -142,6 +142,11 @@ const Get = () => {
 					<h1>Farenheit</h1>
 				</div>
 
+				<div className="cloud">
+					{loading ? (<Cloud CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+					<h1>Cloud (oktas)</h1>
+				</div>
+
 				<div className="cond">
 					{loading ? (<Condition CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
 					<h1>Condition</h1>
@@ -152,13 +157,8 @@ const Get = () => {
 					<h1>Icon</h1>
 				</div>
 
-				<div className="cloud">
-					{loading ? (<Cloud CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
-					<h1>Cloud (oktas)</h1>
-				</div>
-
 				<div className="hum">
-					{loading ? (<Humidity CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<Humidity CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
 					<h1>
 						Humidity (<sup>g.m-3</sup>)
 					</h1>
@@ -166,22 +166,25 @@ const Get = () => {
 
 
 				<div className="wd">
-					{loading ? (<WindDirection CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<WindDirection CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
 					<h1>Wind Direction</h1>
+					
 				</div>
 
 				<div className="ws">
-					{loading ? (<WindSpeed CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<WindSpeed CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
 					<h1>
 						Wind Speed (<sup>kph</sup>)
 					</h1>
+					
 				</div>
 
 				<div className="uv">
-					{loading ? (<Uv CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<Uv CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
 					<h1>
 						UV Ray (<sup>mW/cm2</sup>)
 					</h1>
+					
 				</div>
 			</div>
 		</>

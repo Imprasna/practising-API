@@ -142,6 +142,8 @@ const Get = () => {
 					<h1>Farenheit</h1>
 				</div>
 
+				
+
 				<div className="cond">
 					{loading ? (<Condition CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
 					<h1>Condition</h1>

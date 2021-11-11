@@ -142,6 +142,11 @@ const Get = () => {
 					<h1>Farenheit</h1>
 				</div>
 
+				<div className="cloud">
+					{loading ? (<Cloud CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+					<h1>Cloud (oktas)</h1>
+				</div>
+
 				<div className="cond">
 					{loading ? (<Condition CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
 					<h1>Condition</h1>
@@ -150,11 +155,6 @@ const Get = () => {
 				<div className="icon">
 				{loading ? (<Icon CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
 					<h1>Icon</h1>
-				</div>
-
-				<div className="cloud">
-					{loading ? (<Cloud CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
-					<h1>Cloud (oktas)</h1>
 				</div>
 
 				<div className="hum">
