@@ -83,7 +83,7 @@ const Get = () => {
 				</div>
 
 				<div className="region">
-					<h1>Region</h1>
+					<h1>State</h1>
 					<Region CName={getPost} />
 				</div>
 
