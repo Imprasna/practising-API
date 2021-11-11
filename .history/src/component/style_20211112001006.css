@@ -63,7 +63,7 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .region {
@@ -89,7 +89,7 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .time {
@@ -115,7 +115,7 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .continent {
@@ -141,7 +141,7 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .district {
@@ -167,7 +167,7 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .lat {
@@ -193,7 +193,7 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .lon {
@@ -219,7 +219,7 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .cloud {
@@ -245,7 +245,7 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .upt {
@@ -271,7 +271,7 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .cel {
@@ -297,7 +297,7 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .far {
@@ -323,7 +323,7 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .cond {
@@ -376,7 +376,7 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .hum {
@@ -402,7 +402,7 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .wd {
@@ -428,7 +428,7 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .ws {
@@ -454,7 +454,7 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .uv {
@@ -480,5 +480,5 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }

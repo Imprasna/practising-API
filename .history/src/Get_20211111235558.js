@@ -91,84 +91,84 @@ const Get = () => {
 
 			<div className="whole">
 				<div className="Country">
-					{loading ? (<Country CName={getPost} />) : (<LinearProgress  color="secondary"  />)}					
+					{loading ? (<Country CName={getPost} />) : (<LinearProgress />)}					
 					<h1>Country</h1>
 				</div>
 
 				<div className="region">
-				{loading ? (<Region CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<Region CName={getPost} />) : (<LinearProgress />) }
 					<h1>State</h1>
 					
 				</div>
 
 				<div className="time">
-				{loading ? (<Time CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<Time CName={getPost} />) : (<LinearProgress />) }
 					<h1>Day / Time</h1>
 					
 				</div>
 
 				<div className="continent">
-				{loading ? (<Continent CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<Continent CName={getPost} />) : (<LinearProgress />) }
 					<h1>Continent</h1>
 					
 				</div>
 
 				<div className="district">
-				{loading ? (<District CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<District CName={getPost} />) : (<LinearProgress />) }
 					<h1>District</h1>
 					
 				</div>
 
 				<div className="lat">
-				{loading ? (<Latitude CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<Latitude CName={getPost} />) : (<LinearProgress />) }
 					<h1>Latitude</h1>
 					
 				</div>
 
 				<div className="lon">
-				{loading ? (<Longitude CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<Longitude CName={getPost} />) : (<LinearProgress />) }
 					<h1>Longitude</h1>
 					
 				</div>
 
 				<div className="cloud">
-				{loading ? (<Cloud CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<Cloud CName={getPost} />) : (<LinearProgress />) }
 					<h1>Cloud (oktas)</h1>
 					
 				</div>
 
 				<div className="upt">
-				{loading ? (<UpdatedWeather CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<UpdatedWeather CName={getPost} />) : (<LinearProgress />) }
 					<h1>Info Updated on</h1>
 					
 				</div>
 
 				<div className="cel">
-				{loading ? (<Celcius CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<Celcius CName={getPost} />) : (<LinearProgress />) }
 					<h1>Celcius</h1>
 					
 				</div>
 
 				<div className="far">
-				{loading ? (<Farenheit CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<Farenheit CName={getPost} />) : (<LinearProgress />) }
 					<h1>Farenheit</h1>
 					
 				</div>
 
 				<div className="cond">
-				{loading ? (<Condition CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<Condition CName={getPost} />) : (<LinearProgress />) }
 					<h1>Condition</h1>
 					
 				</div>
 
 				<div className="icon">
-				{loading ? (<Icon CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<Icon CName={getPost} />) : (<LinearProgress />) }
 					<h1>Icon</h1>
 					
 				</div>
 
 				<div className="hum">
-				{loading ? (<Humidity CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<Humidity CName={getPost} />) : (<LinearProgress />) }
 					<h1>
 						Humidity (<sup>g.m-3</sup>)
 					</h1>
@@ -177,13 +177,13 @@ const Get = () => {
 
 
 				<div className="wd">
-				{loading ? (<WindDirection CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<WindDirection CName={getPost} />) : (<LinearProgress />) }
 					<h1>Wind Direction</h1>
 					
 				</div>
 
 				<div className="ws">
-				{loading ? (<WindSpeed CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<WindSpeed CName={getPost} />) : (<LinearProgress />) }
 					<h1>
 						Wind Speed (<sup>kph</sup>)
 					</h1>
@@ -191,7 +191,7 @@ const Get = () => {
 				</div>
 
 				<div className="uv">
-				{loading ? (<Uv CName={getPost} />) : (<LinearProgress  color="secondary"  />) }
+				{loading ? (<Uv CName={getPost} />) : (<LinearProgress />) }
 					<h1>
 						UV Ray (<sup>mW/cm2</sup>)
 					</h1>

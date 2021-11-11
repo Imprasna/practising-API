@@ -32,7 +32,7 @@ body {
     padding: .5rem;
     outline: none;
     border: 1px solid #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     cursor: pointer;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -42,11 +42,11 @@ body {
 
 .Country {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -63,16 +63,16 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .region {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -89,16 +89,16 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .time {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -115,16 +115,16 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .continent {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -141,16 +141,16 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .district {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -167,16 +167,16 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .lat {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -193,16 +193,16 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .lon {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -219,16 +219,16 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .cloud {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -245,16 +245,16 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .upt {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -271,16 +271,16 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .cel {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -297,16 +297,16 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .far {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -323,16 +323,16 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .cond {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -349,17 +349,17 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 
 .icon {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
-    background-color: #5f5f5f;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    background-color: #fff;
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -376,16 +376,16 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .hum {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -402,16 +402,16 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .wd {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -428,16 +428,16 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .ws {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -454,16 +454,16 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
 
 .uv {
     width: 33%;
-    color: #000;
+    color: #fff;
     padding: 1rem;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 8px 10px 7px -8px rgba(204,204,204,0.75);
+    
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
@@ -480,5 +480,5 @@ body {
     border-radius: 5px;
     font-size: 1.2rem;
     filter: drop-shadow(1px 1px 2px rgba(44, 44, 44, 0.342));
-    color: #333;
+    color: #000;
 }
