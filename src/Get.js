@@ -45,7 +45,7 @@ const Get = () => {
 			const city = values.cities;
 			try {
 				const res = await axios.get(
-					`https://cors-anywhere.herokuapp.com/http://api.weatherapi.com/v1/current.json?key=b572a200fc624a6a85671436211310&q=${city}&aqi=yes`
+					`http://api.weatherapi.com/v1/current.json?key=b572a200fc624a6a85671436211310&q=${city}&aqi=yes`
 					);
 				setTimeout(function ()
 				{
