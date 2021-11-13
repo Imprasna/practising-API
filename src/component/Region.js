@@ -1,10 +1,10 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 
 const Region = (props) => {
 
-    React.useEffect = (() => {
+    // React.useEffect = (() => {
 
-    }, [])
+    // }, [])
 
     return (
         <div>

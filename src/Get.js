@@ -54,7 +54,7 @@ const Get = () => {
 					// setGetPost(res.data);
 					(setGetPost(res.data))
 					setLoading(true);
-				}, 3000);
+				}, 2000);
 
 			console.log(getPost);
 			// console.log(res.data.current);
@@ -74,7 +74,7 @@ const Get = () => {
 		inputValues[name] = value;
 		setValues({ ...inputValues });
 		setLoading(false);
-	};
+	}; 
 
 	return (
 		<>
